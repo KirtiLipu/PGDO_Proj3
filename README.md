@@ -18,10 +18,10 @@
 
 <h2>Project Expected Result:</h2>
 Jenkins pipeline with stages as shown below, demonstrating the Springboot application build and deployment process automated with Docker and Jenkins with 'Pipeline as a Code' approach</br>
-[pipeline output image](https://github.com/vdharmaraj/PGDO_Proj3/blob/681fdb351bdec410700e161758e2cacc4ccc9bed/Documentation/Jenkins_pipeline_result.JPG?raw=true)
+[pipeline output image](https://github.com/KirtiLipu/PGDO_Proj3/blob/681fdb351bdec410700e161758e2cacc4ccc9bed/Documentation/Jenkins_pipeline_result.JPG?raw=true)
 
 <h2>Project Documentation</h2>
-Click [here](https://github.com/vdharmaraj/PGDO_Proj3/blob/681fdb351bdec410700e161758e2cacc4ccc9bed/Documentation/PG%20DO%20-%20DevOps%20Certification%20Training_Project-3_Vignesh_Dharmaraj.pdf) to access the project documentation I have created to submit for my DevOps PG certification program requirements   
+Click [here](https://github.com/KirtiLipu/PGDO_Proj3/blob/681fdb351bdec410700e161758e2cacc4ccc9bed/Documentation/PG%20DO%20-%20DevOps%20Certification%20Training_Project-3_Vignesh_Dharmaraj.pdf) to access the project documentation I have created to submit for my DevOps PG certification program requirements   
 
 <h2>Solution overview:</h2> 
 1) On a Linux (ubantu) machine, we are installing and configuring jenkins server.</br>
@@ -37,7 +37,7 @@ Click [here](https://github.com/vdharmaraj/PGDO_Proj3/blob/681fdb351bdec410700e1
 <h2>Mandatory changes to be made in Jenkinsfile when you want to use this project</h2>
 
 1. Its mandatory to change the Docker Hub Account ID after this Repo is forked/cloned by an other person</br>
-    def dockerhubaccountid = "vikidvg"</br>
+    def dockerhubaccountid = "kirtiranjan83"</br>
     
 
 2. To push image to remote repository , in your jenkins server you have to create the global credentials similar to the 'dockerHub' (credential ID)</br>
